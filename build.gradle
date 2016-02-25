@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'maven'
+apply plugin: 'application'
+
+dependencies {
+    compile "org.zeromq:jeromq:0.3.5"
+}
+
+repositories {
+    mavenCentral()
+}
+
+run {
+    systemProperties System.getProperties()
+}

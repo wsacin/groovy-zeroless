@@ -1,0 +1,7 @@
+*.xml
+*.iml
+build
+.idea
+.gradle
+*.swp
+
